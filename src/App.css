@@ -1,3 +1,36 @@
-.App {
-  text-align: center;
+body{
+  display: flex;
+  justify-content: center;
+   margin: 0;
+   padding: 0;
+   min-width: 1000px;
+   min-height: 100vh;
+   text-align: center;
+}
+
+.todoList{
+  display: flex;
+  /* width: 200px; */
+}
+
+div .todoList{
+  background-color: rgb(236, 236, 236);
+  margin: 5px 0;
+}
+.taskTitle{
+  margin: 5px 10px;
+  width: 100%;
+  text-align: left;
+}
+
+.inputText{
+  margin-bottom: 10px;
+  min-width: 400px;
+}
+.close{
+  margin-left: auto;
+}
+
+.close{
+  cursor: pointer;
 }
